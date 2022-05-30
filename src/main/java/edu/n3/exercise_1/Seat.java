@@ -7,7 +7,7 @@ public class Seat {
 	private int rowNumber;
 	private int seatNumber;
 	private String customer;
-	
+
 	public Seat(int rowNumber, int seatNumber, String customer) {
 		this.rowNumber = rowNumber;
 		this.seatNumber = seatNumber;
@@ -25,7 +25,7 @@ public class Seat {
 	public String getCustomer() {
 		return customer;
 	}
-	
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(rowNumber, seatNumber);
